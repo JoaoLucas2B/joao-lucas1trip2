@@ -2,17 +2,19 @@
 
 :root {
     --cor-de-fundo: #141414;
-    --verde: #00fdb1;
+    --verde: #880606;
     --branco: #ffffff;
-    --botao-ativo: #1500ff;
-    --botao-inativo: rgb(42, 30, 177);
+    --botao-ativo: #ff0000;
+    --botao-inativo: rgb(185, 34, 34);
     --texto-fundo: rgba(62, 56, 133, 0.39);
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-image: url(./image/nova-marca-athletico-pr-00.jpg);
+    background-repeat: no-repeat;
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
+    background-size:cover;
 }
 
 
